@@ -6,4 +6,4 @@ function getLogFile() {
     return fs.readFileSync(logFilePath, 'utf8');
 }
 
-module.exports = fetLogFile;
+module.exports = getLogFile;
